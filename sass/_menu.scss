@@ -1,0 +1,31 @@
+.contenedor {
+    width: 100%;
+    /*margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;*/
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    border-bottom: 1px solid #305185;
+    z-index: 1;
+}
+
+/* Estilos de navegación */
+
+
+.nav-logo {
+    width: 60px;
+}
+
+.menu-personalizado{
+    color: blue!important;
+}
+
+.btn-personalizado{
+    border: 1px solid blue;
+    color: blue;
+}
+
+button:hover{
+    background-color: blue!important;
+}

@@ -1,0 +1,89 @@
+
+
+/*Banner*/
+.div-banner {
+    height: 400px;
+    background-image: url(../img/banner1.jpg);
+    color: white;
+    text-align: center;
+    padding: 250px 0 0 0;
+}
+
+/*SECCIÓN SERVICIOS*/
+.servicios{
+    margin: 50px 0 120px 0;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+  
+}
+
+.servicios h1 {
+    font-size: 250%;
+}
+
+.div__servicios{
+    display: grid; 
+    grid-template-columns: repeat(auto-fit,minmax(10rem,1fr));
+    column-gap: 1rem;
+    grid-auto-rows: 22rem;
+    margin-bottom: 50px;
+}
+
+
+.div__servicios div {
+    margin-top: 50px;
+    background-color: #305185;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.div__servicios h2 {
+    color: white;
+}
+
+.div__servicios div h3{
+    border: 1px solid blue;
+    padding: 5px;    
+    background-color: rgb(170, 109, 206);
+    margin-top: 20px;
+}
+
+.div__servicios div h3 a{
+    text-decoration: none;
+    color: white;
+}
+
+.div__servicios img{
+    width: 90px;
+    height: 80px;
+    margin: 20px;
+}
+
+/*SECCION ELEGIRNOS*/
+
+.elegirnos{
+    margin-top: 50px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.div__e1{
+    display: grid; 
+    grid-template-columns: repeat(auto-fit,minmax(18rem,1fr));
+    column-gap: 1rem;
+    grid-auto-rows: 22rem;
+    margin-bottom: 50px;
+}
+
+
+.elegirnos img {
+    width: 300px;
+}
+
+
+.div__e2{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
