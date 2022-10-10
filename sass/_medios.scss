@@ -1,0 +1,89 @@
+/*pantallas grandes*/
+@media (max-width:1400px){
+    .disenoweb{
+        @include d-flex(center,flex-start,nowrap);
+        padding: 50px 10vh 40px 10vh;
+    }
+    .tiendasvirtuales{
+        @include d-flex(center,flex-start,nowrap);
+        padding: 50px 10vh 40px 10vh;
+    }
+    .hosting{
+        @include d-flex(center,flex-start,nowrap);
+        padding: 50px 10vh 40px 10vh;
+    }
+}
+
+
+/*Pantallas medianas*/
+@media (max-width:992px){
+    .disenoweb{
+        @include d-flex(center,flex-start,wrap);
+        text-align: justify;
+        padding: 50px 10vw 40px 10vw;;
+        img{
+            width: 450px;
+        }
+    }
+    .tiendasvirtuales{
+        @include d-flex(center,flex-start,wrap);
+        text-align: justify;
+        padding: 50px 10vw 40px 10vw;;
+        img{
+            width: 450px;
+        }
+    }
+    .hosting{
+        @include d-flex(center,flex-start,wrap);
+        text-align: justify;
+        padding: 50px 10vw 40px 10vw;;
+        img{
+            width: 450px;
+        }
+    }
+}
+
+
+/*Pantallas pequeñas*/
+@media (max-width: 500px){
+    .disenoweb{
+        @include d-flex(center,center,wrap);
+        text-align: justify;
+        padding: 40px 5vw 40px 5vw;
+        img{
+            width: 350px;
+        }
+    }
+    .tiendasvirtuales{
+        @include d-flex(center,center,wrap);
+        text-align: justify;
+        padding: 40px 5vw 40px 5vw;
+        img{
+            width: 350px;
+        }
+    }
+    .hosting{
+        @include d-flex(center,center,wrap);
+        text-align: justify;
+        padding: 40px 5vw 40px 5vw;
+        img{
+            width: 350px;
+        }
+    }
+}
+
+@media(min-width: 700px) {
+    
+    .contact-wrapper {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+    .contact-wrapper > * {
+        padding: 2em;
+    }
+    .contact-info h4,
+    .contact-info ul,
+    .contact-info p {
+        text-align: left;
+    }
+}

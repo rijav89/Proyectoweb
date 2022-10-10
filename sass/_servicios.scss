@@ -1,62 +1,36 @@
 
 /*ESTILO PÁGINA SERVICIOS*/
 
-.disenoweb{
-    display: flex;
-    justify-content: center;
-    padding: 20px;
+
+
+.serv{
+    @include d-flex(center,flex-start,nowrap);
+    gap: 50px;
     text-align: justify;
 }
 
-.disenoweb div{
-    padding: 40px;
-}
 
-.disenoweb img{
-    width: 600px;
+.disenoweb{
+    @extend .serv;
+    padding: 80px 15vw 40px 15vw;
+    img{
+        width: 600px;
+    }
 }
 
 .tiendasvirtuales{
-    display: flex;
+    @extend .serv;
     flex-direction: row-reverse;
-    justify-content: center;
-    padding: 20px;
-    text-align: justify;
-    
+    padding: 120px 15vw 40px 15vw;
+    img{
+        width: 600px;
+    }
 }
-
-.tiendasvirtuales img{
-    width: 600px;
-}
-
-.tiendasvirtuales div{
-    padding: 40px;
-    
-}
-
 
 .hosting{
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-    text-align: justify;
-    
-}
-
-.hosting img{
-    width: 400px;
-}
-
-.hosting div{
-    padding: 40px;
-}
-
-.formulario {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.formulario div{
-    width: 400px;
-    padding: 40px;
+    @extend .serv;
+    padding: 40px 15vw 40px 15vw;
+    img{
+        width: 600px;
+    }
 }

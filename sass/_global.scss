@@ -17,3 +17,9 @@ ul {
     list-style: none;
 }
 
+@mixin d-flex($principal, $cruzado, $wrap){
+    display: flex;
+    justify-content: $principal;
+    align-items: $cruzado;
+    flex-wrap: $wrap;
+}
