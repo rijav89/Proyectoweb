@@ -1,3 +1,8 @@
+/*Variables*/
+$color-p: rgb(34, 71, 139);
+$color-s: rgb(170, 109, 206);
+
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -23,3 +28,7 @@ ul {
     align-items: $cruzado;
     flex-wrap: $wrap;
 }
+
+
+
+

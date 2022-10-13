@@ -1,4 +1,5 @@
 @charset "UTF-8";
+/*Variables*/
 * {
   box-sizing: border-box;
   margin: 0;
@@ -52,6 +53,12 @@ ul {
 /*Banner*/
 .slide img {
   height: 90vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.d-md-block {
+  display: block !important;
 }
 
 /*SECCIÓN SERVICIOS*/
@@ -82,7 +89,7 @@ ul {
   padding: 30px;
 }
 
-.div__servicios h2 {
+.div__servicios h3 {
   color: white;
 }
 
@@ -330,11 +337,11 @@ ul {
   border: none;
   background: none;
   outline: 0;
-  border-bottom: 1px solid #d63031;
+  border-bottom: 1px solid rgb(170, 109, 206);
 }
 
 .contact-form form button {
-  background: rgb(63, 73, 181);
+  background: rgb(34, 71, 139);
   color: white;
   border: 0;
   text-transform: uppercase;
@@ -350,7 +357,7 @@ ul {
 
 /* Mas información*/
 .contact-info {
-  background: rgb(63, 73, 181);
+  background: rgb(34, 71, 139);
   color: white;
 }
 
@@ -483,7 +490,6 @@ ul {
   margin: 1.6em auto;
   display: grid;
   gap: 1.6em;
-  /* grid-template-columns: repeat(4, 1fr) 3%; */
   grid-template-columns: repeat(5, 1fr);
 }
 
@@ -495,7 +501,7 @@ ul {
 
 .container > .header, .container > .footer {
   grid-column: 1/-1;
-  background-color: #1e272e;
+  background-color: rgb(34, 71, 139);
   color: #ffffff;
 }
 
@@ -533,26 +539,22 @@ ul {
 }
 
 .container > .related-post {
-  background: #2d3436;
+  background: rgb(34, 71, 139);
   color: #ffffff;
   height: 180px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: nowrap;
-  /*display: flex;
-  align-items: center;
-  justify-content: center;*/
   transition: all 0.5s ease;
 }
 
 .container > .related-post:hover {
   cursor: pointer;
-  color: #000000;
+  color: rgb(170, 109, 206);
   background: #ffffff;
 }
 
-/* MEDIA QUERIES */
 @media screen and (max-width: 768px) {
   .header {
     text-align: center;

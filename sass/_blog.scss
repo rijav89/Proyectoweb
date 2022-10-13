@@ -13,7 +13,7 @@
     margin: 1.6em auto;
     display: grid;
     gap: 1.6em;
-    /* grid-template-columns: repeat(4, 1fr) 3%; */
+
     grid-template-columns: repeat(5, 1fr);
 }
 
@@ -25,7 +25,7 @@
 
 .container>.header, .container>.footer {
     grid-column: 1/-1;
-    background-color: #1e272e;
+    background-color: $color-p;
     color: #ffffff;
 }
 
@@ -63,23 +63,18 @@
 }
 
 .container>.related-post {
-    background: #2d3436;
+    background: $color-p;
     color: #ffffff;
     height: 180px;
     @include d-flex(center,center,nowrap);
-    /*display: flex;
-    align-items: center;
-    justify-content: center;*/
     transition: all 0.5s ease;
 }
 
 .container>.related-post:hover {
     cursor: pointer;
-    color: #000000;
+    color: $color-s;
     background: #ffffff;
 }
-
-/* MEDIA QUERIES */
 
 @media screen and (max-width: 768px) {
     .header {

@@ -5,7 +5,12 @@
 .slide{
     img{
         height: 90vh;
+        object-fit: cover;
     }
+}
+
+.d-md-block {
+    display: block!important;
 }
 
 /*SECCIÓN SERVICIOS*/
@@ -37,7 +42,7 @@
     padding: 30px;
 }
 
-.div__servicios h2 {
+.div__servicios h3 {
     color: white;
 }
 

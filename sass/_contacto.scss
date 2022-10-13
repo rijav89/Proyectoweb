@@ -52,11 +52,11 @@ ul {
     background: none;
     outline: 0;
     
-    border-bottom: 1px solid #d63031;
+    border-bottom: 1px solid $color-s;
 }
 
 .contact-form form button {
-    background: rgb(63, 73, 181);
+    background: $color-p;
     color:white;
     border: 0;
     text-transform: uppercase;
@@ -73,7 +73,7 @@ ul {
 
 /* Mas información*/
 .contact-info {
-    background: rgb(63, 73, 181);
+    background: $color-p;
     color:white;
 }
 
