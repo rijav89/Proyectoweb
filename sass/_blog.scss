@@ -63,7 +63,7 @@
 }
 
 .container>.related-post {
-    background: $color-p;
+    background-image: url('../img/p1.jpg');
     color: #ffffff;
     height: 180px;
     @include d-flex(center,center,nowrap);
